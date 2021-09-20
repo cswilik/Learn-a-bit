@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("images/danist-soh-n9Z4Zo0wZoc-unsplash.jpg") no-repeat;
+  background-size: 100%;
+}
+
+nav {
+  padding: 30px 30px 30px 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #232932;
+}
+
+.nav-links {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+  justify-content: space-around;
+  width: 30%;
+  color: white;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links li:hover {
+  color: #3a3f47;
+}
+
+.body-header {
+  padding: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 45px;
+  text-shadow: 2px 2px white;
+}
+
+.body-content {
+  padding-left: 30px;
+  width: 35%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8em;
+  color: #3a3f47;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em 0.5em 1em;
+  border: none;
+  border-radius: 12px;
+  /* box-sizing: border-box; */
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 80%;
+  font-weight: 500;
+  color: black;
+  background-color: #ffd36a;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card {
+  padding: 1rem 2rem;
+}
+
+@media (min-width: 600px) {
+  .card {
+    display: flex;
+    justify-content: space-between;
+  }
+}
